@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import axios from 'axios';
+import Quarter from './Quarter'
 import './App.css';
 
 class App extends React.Component {
@@ -25,7 +26,7 @@ class App extends React.Component {
 
   return (
     <div className="App">
-      
+      <Quarter />
       
     </div>
   );
